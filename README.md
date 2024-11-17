@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html><head>
 <meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" />
 <meta content="IE=7" http-equiv="X-UA-Compatible" />
@@ -66,4 +67,7 @@ function xx1(str1){
 }
 </script>
 </td></tr></table></div>
+</body>
+</html>
+
 ## blog
