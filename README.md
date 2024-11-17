@@ -63,5 +63,3 @@ function xx1(str1){
 </td></tr></table></div>
 </body>
 </html>
-
-## blog
