@@ -1,1 +1,1 @@
-<iframe src="BLOG.html" width="600" height="400"></iframe>
+[BLOG](https://github.com/HJYH012/HJYH012.github.io/blob/main/BLOG.html)
