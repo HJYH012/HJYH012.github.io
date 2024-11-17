@@ -3,7 +3,6 @@
 <meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" />
 <meta content="IE=7" http-equiv="X-UA-Compatible" />
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>HJYH012</title>
 <link rel="iocn" type="image/x-icon" href="./favicon.ico"/>
 <script>
 function displayTime() {
