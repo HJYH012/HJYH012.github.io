@@ -1,5 +1,4 @@
 <html><head>
-<link rel="iocn" type="image/x-icon" href="./favicon.ico"/>
 <script>
 function displayTime() {
   var wk=['日','一','二','三','四','五','六'];
