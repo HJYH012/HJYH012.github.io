@@ -6,7 +6,7 @@
 
 头图:
 
-![头图](/picture/fengzai_.jpg)
+![头图](HJYH012.github.io/BLOG/2/picture/fengzai_.jpg)
 
 $\textcolor{white}{我是散兵的狗}$
 
