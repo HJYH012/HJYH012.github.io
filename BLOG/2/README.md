@@ -75,9 +75,9 @@ SB x86电脑,3GB内存
 
 在车上看了会儿白皮书,大脑直接短路,直接van PhigrOS,OPPO R9sk直接~~爆炸~~没电,CaO
 
-......(<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math>)
+......(<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math>)
 
-$<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math>$了半天终于到了*海天一色*酒店
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math>了半天终于到了*海天一色*酒店
 
 下车加了个YHOI群
 
@@ -97,7 +97,7 @@ $<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><m
 
 下去看了看海,于是有了头图
 
-交了手机,摆摆摆,<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math> <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math> <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math>
+交了手机,摆摆摆,<math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math> <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math> <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math>
 
 ### Day 1
 
@@ -187,7 +187,7 @@ T4**DP科技,震撼人心,0s,写了freopen就走**
 |MRS|40 |
 |YSJ|不可用|
 
-$CCF$认为的分数线:
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mi>C</mi><mi>F</mi></math>认为的分数线:
 
 |人名|得分|
 |:-:|:-:|
