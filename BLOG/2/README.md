@@ -8,7 +8,7 @@
 
 ![头图](picture/fengzai_.jpg)
 
-$\textcolor{white}{我是散兵的狗}$
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathcolor="white"><mo>我是散兵的狗</mo></mstyle></math>
 
 # 滨湖集训
 
@@ -75,9 +75,9 @@ SB x86电脑,3GB内存
 
 在车上看了会儿白皮书,大脑直接短路,直接van PhigrOS,OPPO R9sk直接~~爆炸~~没电,CaO
 
-......($ { { {z ^ z} ^z } ^z} $)
+......(<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math>)
 
-$ { { {z ^ z} ^z } ^z} $了半天终于到了*海天一色*酒店
+$<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math>$了半天终于到了*海天一色*酒店
 
 下车加了个YHOI群
 
@@ -97,7 +97,7 @@ $ { { {z ^ z} ^z } ^z} $了半天终于到了*海天一色*酒店
 
 下去看了看海,于是有了头图
 
-交了手机,摆摆摆,$ { { {z ^ z} ^z } ^z} $ $ { { {z ^ z} ^z } ^z} $ $ { { {z ^ z} ^z } ^z} $
+交了手机,摆摆摆,<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math> <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math> <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mrow><msup><mrow><msup><mrow><msup><mi>z</mi><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow><mi>z</mi></msup></mrow></math>
 
 ### Day 1
 
