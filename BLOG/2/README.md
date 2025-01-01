@@ -1,6 +1,6 @@
 头图:
 
-![头图](picture/fengzai.png)
+![头图](picture/fengzai_.jpg)
 
 $\textcolor{white}{我是散兵的狗}$
 
