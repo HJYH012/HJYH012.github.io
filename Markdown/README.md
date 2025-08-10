@@ -1,4 +1,4 @@
-[chinese](https://https://github.com/HJYH012/HJYH012.github.io/blob/master/Makdown/READMECH.md)
+[chinese](https://github.com/HJYH012/HJYH012.github.io/blob/master/Makdown/READMECH.md)
 
 # Markdown*Palettes
 
