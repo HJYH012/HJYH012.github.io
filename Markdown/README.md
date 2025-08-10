@@ -1,4 +1,4 @@
-#Markdown*调色板
+# Markdown*调色板
 **Markdown*Palettes**是一款适用于现代网络的开源Markdown编辑器。
 ##使用方法
 我们有四种套餐方案。请选择您喜欢的。
@@ -81,16 +81,16 @@ hljs.registerLanguage（cpp）
 // 为 CodeMirror 注册语言
 导入“codemirror/mode/clike/clike”
 ```
-##文件
+## 文件
 _TODO_
-##发展
+## 发展
 首先，请查看这个仓库。
 ```控制台
 $ yarn          # 安装依赖
 $ yarn dev      # 启动开发服务器
 $ yarn build    # 构建dist目录
 ```
-###释放
+### 释放
 请将`dist`目录一同上传到npm。
-##学分
+## 学分
 由Luogu开发团队的@darkflames和@lin_toto开发
