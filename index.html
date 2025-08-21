@@ -2,37 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-	<script src="./MathJax/tex-chtml.js" id="MathJax-script" async></script>
+    <script src="./MathJax/tex-chtml.js" id="MathJax-script" async></script>
+    <script src="./JavaScript/time.js" id="HJYH012-time"></script>
     <link rel="icon" href="./HJYH012.ico" type="image/x-icon"/>
-    <style>
-A:link    {COLOR:#0366d6;TEXT-DECORATION:none}
-A:hover   {COLOR:#0366d6;TEXT-DECORATION:none}
-A:active  {COLOR:#0366d6;TEXT-DECORATION:none}
-A:visited {COLOR:#0366d6;TEXT-DECORATION:none}
-    </style>
-    <script>
-function displayTime()
-{
-  var week=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-  var date=new Date(Date.now());
-  var hours=date.getHours();
-  var minutes=date.getMinutes();
-  var seconds=date.getSeconds();
-  var year=date.getFullYear();
-  var month=date.getMonth()+1;
-  var day=date.getDate();
-  month=(month<10?"0":"")+month;
-  day=(day<10?"0":"")+day;
-  hours=(hours<10?"0":"")+hours;
-  minutes=(minutes<10?"0":"")+minutes;
-  seconds=(seconds<10?"0":"")+seconds;
-  document.getElementById("clock").innerHTML=year+"/"+month+"/"+day+"("+week[date.getDay()]+")"+hours+":"+minutes+":"+seconds+"&nbsp;&nbsp;";
-  setTimeout(displayTime,10);
-}
-    </script>
+    <link rel="stylesheet" href="./css/href.css">
   </head>
   <body>
-    <!-- Begin HEAD.html -->
+    <!-- Begin HEAD -->
     <table width=100%>
       <tr>
         <td width=300px align="left"><font size=5><a href="https://hjyh012.github.io/" target="_blank" title="HJYH012">HJYH012</a></font></td>
@@ -45,17 +21,12 @@ function displayTime()
         <td><hr/></td>
       </tr>
     </table>
-	<!-- End HEAD.html -->
-	<!-- Begin BODY.html -->
-	<p>- <a href="https://hjyh012.github.io/BLOG/" target="_blank" title="HJYH012's BLOG">BLOG</a></p>
-	<p>- <a href="https://www.osgeo.cn/mathjax/" target="_blank" title="LaTeX">LaTeX</a></p>
-	<!-- End BODY.html -->
-	<!-- Begin TAIL.html -->
-	<!-- End TAIL.html -->
+    <!-- End   HEAD -->
+    <!-- Begin BODY -->
+      <p>- <a href="https://hjyh012.github.io/BLOG/" target="_blank" title="HJYH012's BLOG">BLOG</a></p>
+      <p>- <a href="https://www.osgeo.cn/mathjax/" target="_blank" title="LaTeX">LaTeX</a></p>
+    <!-- End   BODY -->
+    <!-- Begin TAIL -->
+    <!-- End   TAIL -->
   </body>
 </html>
-
-
-
-
-
