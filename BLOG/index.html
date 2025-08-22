@@ -2,57 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <link rel="icon" href="../HJYH012.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./MathJax/tex-chtml.js" id="MathJax-script" async></script>
-    <style>
-A:link    {COLOR:#0366d6;TEXT-DECORATION:none}
-A:hover   {COLOR:#0366d6;TEXT-DECORATION:none}
-A:active  {COLOR:#0366d6;TEXT-DECORATION:none}
-A:visited {COLOR:#0366d6;TEXT-DECORATION:none}
-    </style>
-    <script>
-function displayTime()
-{
-  var week=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-  var date=new Date(Date.now());
-  var hours=date.getHours();
-  var minutes=date.getMinutes();
-  var seconds=date.getSeconds();
-  var year=date.getFullYear();
-  var month=date.getMonth()+1;
-  var day=date.getDate();
-  month=(month<10?"0":"")+month;
-  day=(day<10?"0":"")+day;
-  hours=(hours<10?"0":"")+hours;
-  minutes=(minutes<10?"0":"")+minutes;
-  seconds=(seconds<10?"0":"")+seconds;
-  document.getElementById("clock").innerHTML=year+"/"+month+"/"+day+"("+week[date.getDay()]+")"+hours+":"+minutes+":"+seconds+"&nbsp;&nbsp;";
-  setTimeout(displayTime,10);
-}
-    </script>
+    <script src="./JavaScript/time.js" id="HJYH012-time"></script>
+    <link rel="icon" href="./HJYH012.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="./css/href.css">
   </head>
   <body>
-    <table width=100%>
-      <tr>
-        <td width=300px align="left"><font size=5><a href="https://hjyh012.github.io/" target="_blank" title="HJYH012">HJYH012</a></font></td>
-        <td></td>
-        <td id='clock' align="right" width=300px/></td>
-      </tr>
-      <tr>
-        <td><hr/></td>
-        <td><script>displayTime();</script></td>
-        <td><hr/></td>
-      </tr>
-    </table>
-    <a href="https://hjyh012.github.io/">HJYH012</a>
-    <hr/>
-    <p>1.<a href="https://hjyh012.github.io/BLOG/1/" target="_blank" title="CSP-J1 2024游记">CSP-J1 2024游记</a></p>
-    <p>--<a href="https://hjyh012.github.io/BLOG/1/" target="_blank" title="CSP-J1 2024游记">发布时间 2024-10-06 17:29</a></p>
-    <p>--<a href="https://hjyh012.github.io/BLOG/1/" target="_blank" title="CSP-J1 2024游记">分类 生活·游记</a></p>
-    <hr/>
-    <p>2.<a href="https://hjyh012.github.io/BLOG/2/" target="_blank" title="滨湖集训 && CSP-J2 2024游记 && 13生快">滨湖集训 && CSP-J2 2024游记 && 13生快</a></p>
-    <p>--<a href="https://hjyh012.github.io/BLOG/2/" target="_blank" title="滨湖集训 && CSP-J2 2024游记 && 13生快">发布时间 2024-11-16 17:29</a></p>
-    <p>--<a href="https://hjyh012.github.io/BLOG/2/" target="_blank" title="滨湖集训 && CSP-J2 2024游记 && 13生快">分类 生活·游记</a></p>
-    <hr></hr>
+    <!-- Begin HEAD -->
+    <header id="header">
+      <nav>
+        <a href="https://hjyh012.github.io/" target="_blank" title="HJYH012">HJYH012</a>
+        <a class="right"><script>displayTime();</script></a>
+      </nav>
+    </header>
+    <!-- End   HEAD -->
+    <!-- Begin BODY -->
+    <main>
+      <hr/>
+      <p>1.<a href="https://hjyh012.github.io/BLOG/1/" target="_blank" title="CSP-J1 2024游记">CSP-J1 2024游记</a></p>
+      <p>--<a href="https://hjyh012.github.io/BLOG/1/" target="_blank" title="CSP-J1 2024游记">发布时间 2024-10-06 17:29</a></p>
+      <p>--<a href="https://hjyh012.github.io/BLOG/1/" target="_blank" title="CSP-J1 2024游记">分类 生活·游记</a></p>
+      <hr/>
+      <p>2.<a href="https://hjyh012.github.io/BLOG/2/" target="_blank" title="滨湖集训 && CSP-J2 2024游记 && 13生快">滨湖集训 && CSP-J2 2024游记 && 13生快</a></p>
+      <p>--<a href="https://hjyh012.github.io/BLOG/2/" target="_blank" title="滨湖集训 && CSP-J2 2024游记 && 13生快">发布时间 2024-11-16 17:29</a></p>
+      <p>--<a href="https://hjyh012.github.io/BLOG/2/" target="_blank" title="滨湖集训 && CSP-J2 2024游记 && 13生快">分类 生活·游记</a></p>
+      <hr/>
+    </main>
+    <!-- End   BODY -->
+    <!-- Begin TAIL -->
+    <!-- End   TAIL -->
   </body>
 </html>
