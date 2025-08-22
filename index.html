@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./MathJax/tex-chtml.js" id="MathJax-script" async></script>
     <script src="./JavaScript/time.js" id="HJYH012-time"></script>
     <link rel="icon" href="./HJYH012.ico" type="image/x-icon"/>
@@ -9,24 +10,41 @@
   </head>
   <body>
     <!-- Begin HEAD -->
-    <table width=100%>
-      <tr>
-        <td width=300px align="left"><font size=5><a href="https://hjyh012.github.io/" target="_blank" title="HJYH012">HJYH012</a></font></td>
-        <td></td>
-        <td id='clock' align="right" width=300px/></td>
-      </tr>
-      <tr>
-        <td><hr/></td>
-        <td><script>displayTime();</script></td>
-        <td><hr/></td>
-      </tr>
-    </table>
+    <header id="header">
+      <nav>
+        <a href="https://hjyh012.github.io/" target="_blank" title="HJYH012">HJYH012</a>
+        <a class="right"><script>displayTime();</script></a>
+      </nav>
+    </header>
     <!-- End   HEAD -->
     <!-- Begin BODY -->
+    <main>
       <p>- <a href="https://hjyh012.github.io/BLOG/" target="_blank" title="HJYH012's BLOG">BLOG</a></p>
       <p>- <a href="https://www.osgeo.cn/mathjax/" target="_blank" title="LaTeX">LaTeX</a></p>
+    </main>
     <!-- End   BODY -->
     <!-- Begin TAIL -->
     <!-- End   TAIL -->
+    <script>
+    let lastScroll = 0;
+    const navbar = document.getElementById('header');
+    const scrollThreshold = 0; // 滚动阈值
+    
+    window.addEventListener('scroll', function() {
+      const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      
+      // 向下滚动且超过阈值时隐藏
+      if (currentScroll > lastScroll && currentScroll > scrollThreshold) {
+        navbar.classList.add('hidden');
+      } 
+      // 向上滚动或接近顶部时显示
+      else if (currentScroll < lastScroll || currentScroll <= scrollThreshold) {
+        navbar.classList.remove('hidden');
+      }
+      
+      lastScroll = currentScroll;
+    });
+    </script>
   </body>
 </html>
+
