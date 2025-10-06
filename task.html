@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <script>
+const cookies=
+{
+  set(name,value,days=null,path='/')
+  {
+    let expires='';
+    if(days)
+    {
+      const date=new Date();
+      date.setTime(date.getTime()+days*24*3600*1000);
+      expires=`;expires=${date.toUTCString()}`;
+    }
+    document.cookie=`${name}=${encodeURIComponent(value)}${expires};path=${path}`;
+  },
+  get(name)
+  {
+    return document.cookie
+      .split(';')
+      .find(c=>c.trim().startsWith(`${name}=`))
+      ?.split('=')[1];
+  },
+  delete(name)
+  {
+    this.set(name,'',-1);
+  }
+};
+    </script>
+    <script>
+      function Log(Input){document.write(Input+"\n");}
+    </script>
+    <script>
+      function check(str1,str2)
+      {
+        if(str1=="David" || str1=="Administrator")
+        {
+          alert("用户名已被占用");
+          return "Username error";
+        }
+        else
+        {
+          cookies.set("name",str1,1+10-10+1);
+          setTimeout('alert("[No signal]")',2000);
+          return "5oiR5oCd5pWF5oiR5Zyo";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <p>Username:<input id="username" type="text" value="David" autocomplete="on"><br/>
+    Password:<input id="password" type="password"><br/>
+    <input type="button" onclick="check(username.value,password.value);" value="注册"><br/>
+    </p>
+  </body>
+</html>
