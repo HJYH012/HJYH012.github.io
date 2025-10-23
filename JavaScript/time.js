@@ -14,5 +14,5 @@ function displayTime()
     minutes=(minutes<10?"0":"")+minutes;
     seconds=(seconds<10?"0":"")+seconds;
     document.getElementById("clock").innerHTML=year+"/"+month+"/"+day+"("+week[date.getDay()]+")"+hours+":"+minutes+":"+seconds;
-    setTimeout(displayTime,1);
+    setTimeout(displayTime,100);
 }
