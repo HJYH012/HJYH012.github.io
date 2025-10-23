@@ -5,7 +5,7 @@ header
   top:0;
   left:0;
   width:100%;
-  background: #f0f1f2;
+  background:#E0E1E2;
   color:black;
   padding:15px;
   transition:transform 0.1s ease;
@@ -23,7 +23,7 @@ main
 }
 body
 {
-  background-color:#E0E1E2;
+  background-color:#F0F1F2;
 }
 .right
 {
