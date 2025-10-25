@@ -1,5 +1,5 @@
 //分别代表默认、悬停、激活、已访问的连接
 a:link{color:#0366d6;text-decoration:none}
-//a:hover{color:#0366d6;text-decoration:none}
-//a:active{color:#0366d6;text-decoration:none}
+a:hover{color:#0366d6;text-decoration:none}
+a:active{color:#0366d6;text-decoration:none}
 a:visited{color:#0366d6;text-decoration:none}
