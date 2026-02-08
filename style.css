@@ -78,11 +78,12 @@ h4{margin-bottom:0;}
 h5{margin-bottom:0;}
 h6{margin-bottom:0;}
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:768px){
 main,nav{
 float:none !important;
 width:calc(100% - 10px) !important;
   }
 }
+
 
 
