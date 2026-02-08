@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=UTF-8"/>
+    <title>BASE64</title>
+  </head>
+  <body>
+    <textarea id="contents" style="width:184px;height:184px;"></textarea>
+    <br/>
+    <input type="button" onclick="contents.value=utob(contents.value);" value="BASE64加密">
+    <input type="button" onclick="contents.value=btou(contents.value);" value="BASE64解密">
+    <script src="javascript/base64.js"></script>
+  </body>
+</html>
