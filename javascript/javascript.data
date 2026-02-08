@@ -1,0 +1,4 @@
+https://www.jsdelivr.com/package/npm/
+import mathjax@3.3.2 from mathjax/es5/tex-mml-chtml.js
+import marked@17.0.1 from marked/lib/marked.umd.js
+import highlight.js@11.11.1 from highlight/lib/common.js
