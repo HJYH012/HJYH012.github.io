@@ -83,4 +83,7 @@ main,nav{
 float:none !important;
 width:calc(100% - 10px) !important;
   }
+header{
+padding:30px !important;
+  }
 }
