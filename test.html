@@ -22,16 +22,16 @@
       <h1>sha01ow_2ero</h1>
     </header>
     <div id="middle">
-      <div id="left" class="card">
-        <main><article id="text"></article></main>
+      <div id="left">
+        <div class="card"><main><article></article></main></div>
       </div>
-      <div id="right" class="card">
-        <nav></nav>
+      <div id="right">
+        <div class="card"><nav></nav></div>
       </div>
     </div>
     <script>
 function putmarkdown(str)
-{document.getElementById("text").innerHTML=marked.parse(btou(str));}
+{document.querySelector("article").innerHTML=marked.parse(btou(str));}
 
 const article="IyMg5qCH6aKYCgojIyDkuoznuqfmoIfpopgKCiMjIyDkuInnuqfmoIfpopgKCiMjIyMg5Zub57qn5qCH6aKYCgo+IOW8leeUqArlhYjovojllYrlhYjovogKIAojIyDmnInluo/liJfooagKMS4g5oCd6ICD5YaF5a65CjIuIOe7hOe7h+ivreiogAozLiDlhpnkuIvmlofmnKwKCiMjIOaXoOW6j+WIl+ihqAotIOi/m+WFpeWFrOWPuOW3puiEmuWFpemXqAotIOiiq+iAgeadv+W8gOmZpAoqIHp6egoKIyMjIOWPr+eUqCrmiJYtCgojIyDku7vliqHliJfooagKCuS7iuWkqeWtpuS5oOS7u+WKoeWIl+ihqDoKLSBbIF0g5LuK5aSpCi0gW3hdIOS7iuWkqQotIFt4XSDmmI7lpKkKCiMjIOS7o+eggeWdlwrkuInkuKpgYGAr6L6T5YWl55qE5Luj56CB6K+t6KiAKDErMXByb2JsZW0pCmBgYGMKaW50IG1haW4oKQp7CiAgICBpbnQgYSxiOwogICAgY2luPj5hPj5iOwogICAgY291dDw8YStiOwp9CmBgYAoKIyMg5pWw5a2m5YWs5byPCgokJApcZnJhY3tccGFydGlhbCBmfXtccGFydGlhbCB4fSA9IDJcc3FydHthfXgKJCQKCiMjIOihqOagvAp8IOWnk+WQjSB8IOePree6pyB8IOW5tOm+hCB8Cnw6LS0tfC0tLS18Oi0tOnwKfCDlvKDkuIkgfCAyMCB8IDE0IHwKfOadjuWbm3wgMTggfCAxNSB8CgojIyDohJrms6g6CuWFs+azqGJhaeWWtVteMV0KClteMV066K+35pSv5oyBYmFp5Za1CgojIyDliIbnlYznur8KCi0tLQoK5LiK6Z2i5piv5LiA5Y+q6aaZ6aaZ6L2v6L2v55qE5YiG55WM57q/fgoKIyMg6ZO+5o6lClvmlK/mjIHkuLvljIVdKGh0dHBzOi8vYmlsaWJpbGkuY29tLyAiYmlsaWJpbGkiKQoKW+aUr+aMgeS4u+WMhV1baWRdCgpbaWRdOmh0dHBzOi8vYmlsaWJpbGkuY29tLyAiYmlsaWJpbGkiCgrot7PmsLTpk77mjqVb5qCH6aKYXSgj5qCH6aKYKQoKVVJMOgpodHRwczovL2hqeWgwMTIuZ2l0aHViLmlvLwoK5LiA5Y+q5Zu+54mHCiFb5Zu+XSguL3h1ZWxpLmpwZyAieHVlbGkiKQoKKuaWnOS9kyogKirliqDnspcqKiAgYHByaW50ZigpYCAsIDx1PuS4i+WIkue6vzwvdT4sICRcdGhldGE9eF4yJO+8jFwqYWFhXCo=";
 
@@ -49,7 +49,7 @@ function check(){
     return false;
   }
 }
-setInterval(check,100);
+setInterval(check,10);
     </script>
   </body>
 </html>
