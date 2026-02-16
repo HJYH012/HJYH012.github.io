@@ -8,7 +8,6 @@ background-color:#e0e1e2;font-size:16px;
 font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Noto Sans,Noto Sans SC,Source Sans Pro,Source Han Sans,Segoe UI,Arial,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 color:#404040;
 line-height:1.5;
-word-break:keep-all;
 }
 
 p{margin:1rem 0;}
@@ -92,6 +91,7 @@ hr{border-color:#00000012}
 #middle{margin:auto;width:min(1080px,100%);margin-top:78px;}
 
 table{
+word-break:keep-all;
 width:auto;
 border-collapse:collapse;
 display:block;
