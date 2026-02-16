@@ -25,13 +25,20 @@ width:100%;
 background:#d0d1d2;
 color:black;
 padding:15px;
+display:block;
+z-index:1024;
+}
+header>h1{
+margin:0;
+color:#ffffff
 }
 
 .card{
+margin-top:8px;
 display:block;
 background-color:#f0f1f2;
 border-radius:10px;
-box-shadow:0 5px 10px 1px #10111240;
+box-shadow:0 4px 10px 1px #10111240;
 box-sizing:border-box;
 padding:1.5em;
 }
@@ -69,12 +76,7 @@ h4.center{margin:0.5em 0;text-align:center;}
 h5.center{margin:0.5em 0;text-align:center;}
 h6.center{margin:0.5em 0;text-align:center;}
 
-h1.none{margin:0;}
-h2.none{margin:0;}
-h3.none{margin:0;}
-h4.none{margin:0;}
-h5.none{margin:0;}
-h6.none{margin:0;}
+.none{margin:0;}
 
 h1{margin:20px 0 0;}
 h2{margin:18px 0 0;}
@@ -85,14 +87,9 @@ h6{margin:10px 0 0;}
 
 hr{border-color:#00000012}
 
-@media screen and (max-width:1080px){
-#left,#right{
-width:100% !important;
-  }
-#right{
-margin-top:7px;
-  }
-}
+#left{float:left;}
+#right{float:right;}
+#middle{margin:auto;width:min(1080px,100%);margin-top:78px;}
 
 table{
 width:auto;
